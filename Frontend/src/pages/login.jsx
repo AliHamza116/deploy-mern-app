@@ -70,13 +70,13 @@ function Login() {
                 />
             </div>
             <div>
-                <label htmlFor="passwotd">Password</label>
+                <label htmlFor="password">Password</label>
                 <input 
                 onChange={handleChange}
                 type="password"
                  name='password' 
                  autoFocus 
-                 placeholder='Enter your passwotd...'
+                 placeholder='Enter your password...'
                  value={loginInfo.password}
                  />
             </div>
